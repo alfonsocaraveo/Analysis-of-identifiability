@@ -6,7 +6,7 @@ library(fields)
 #######################################################
 source("Solver_Frac_Cap_Fab.R")
 source("Minus_Log_lik.R")
-source("Lik_alpha_a.R")
+source("Lik_alpha_lambda.R")
 
 
 
@@ -50,7 +50,7 @@ for(i in 1:length(Valalpha))
   for(j in 1:length(Vallambda))
   {
     VecPar<-c(Valalpha[i],Vallambda[j])
-    Lik[i,j] <- Lik_alpha_a(VecPar,data,VecTime0)
+    Lik[i,j] <- Lik_alpha_lambda(VecPar,data,VecTime0)
     print(c(i,j))
   }
 }
