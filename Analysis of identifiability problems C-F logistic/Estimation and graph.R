@@ -7,7 +7,7 @@ library(fields)
 source("Solver_Frac_Cap_Fab.R")
 source("Minus_Log_lik.R")
 source("Lik_alpha_a.R")
-source("Minus_Log_Profilelik_alpha_a.R")
+
 
 
 
