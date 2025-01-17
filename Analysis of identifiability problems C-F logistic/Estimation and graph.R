@@ -64,7 +64,7 @@ persp(x=Valalpha,y=Vallambda,z=Lik,
       ticktype="detailed",theta=30,phi=30,expand=0.5,
       cex.axis=1,nticks=4,
       col="gray",xlab="alpha",ylab="lambda",
-      zlab="\n\nRelative Likelihood")
+      zlab="\n\n Likelihood")
 
 
 lik1 <- Lik/max(Lik)
