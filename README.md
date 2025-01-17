@@ -14,7 +14,7 @@ This repository contains the following R scripts, each serving a specific purpos
 # 2. Estimation and graph.R
 **Description:** Script for performs point estimation and profile likelihood graph.
 
-**Libraries Used:** fields for graph <br />
+**Libraries Used:** 
 
 - `fields`: For graph.
 
